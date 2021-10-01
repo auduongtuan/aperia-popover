@@ -1,0 +1,43 @@
+{
+  "name": "cdfwhp--run",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "@popperjs/core": "^2.0.0",
+    "@progress/kendo-licensing": "1.2.0",
+    "@progress/kendo-react-dateinputs": "4.8.0",
+    "@progress/kendo-react-dialogs": "^4.8.0",
+    "@progress/kendo-react-intl": "4.8.0",
+    "@progress/kendo-react-popup": "^4.8.0",
+    "popper-max-size-modifier": "^0.2.0",
+    "prop-types": "15.7.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-popper": "^2.2.5",
+    "styled-components": "^5.3.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "react-scripts": "latest",
+    "sass": "^1.42.1",
+    "sass-loader": "^10.2.0",
+    "webpack": "^4.44.2"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

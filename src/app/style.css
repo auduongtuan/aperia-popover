@@ -1,0 +1,90 @@
+body {
+  font-family: -apple-system, Helvetica Neue, Segoe UI, Roboto, Oxygen, Ubuntu,
+    Cantarell, Open Sans, sans-serif;
+  /* text-transform: uppercase; */
+  overflow-y: hidden;
+}
+
+.popover-md {
+  width: 680px;
+}
+.popover-sm {
+  width: 320px;
+}
+.popover {
+  max-width: calc(100vw - 16px);
+  background: #ffffff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  border-radius: 6px;
+}
+
+h2 {
+  margin-top: 20px;
+}
+
+/* 
+#arrow,
+#arrow::before {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background: inherit;
+}
+
+#arrow {
+  visibility: hidden;
+}
+
+#arrow::before {
+  visibility: visible;
+  content: '';
+  transform: rotate(45deg);
+}
+
+#popover[data-popper-placement^='top'] > #arrow {
+  bottom: -4px;
+}
+
+#popover[data-popper-placement^='bottom'] > #arrow {
+  top: -4px;
+}
+
+#popover[data-popper-placement^='left'] > #arrow {
+  right: -4px;
+}
+
+#popover[data-popper-placement^='right'] > #arrow {
+  left: -4px;
+} */
+
+/* .k-animation-container {
+  z-index: 10002;
+}
+.k-window-titlebar {
+  z-index: 10003;
+} */
+
+.k-dialog-wrapper {
+  justify-content: flex-start;
+}
+
+.k-dialog {
+  max-width: 480px;
+  min-height: 200px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.z-index-100004 {
+  z-index: 10004;
+}
+
+#Popover-Root:not(:empty) {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10005;
+}
