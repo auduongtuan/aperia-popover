@@ -16,7 +16,7 @@ const InputWrapper = styled.div`
         top: 0;
         left: 0;
         padding: 12px 16px 0 16px;
-        transition: all 0.06s ease-in;
+        transition: all 0.1s cubic-bezier(0.4, 0, 0.2, 1), padding-top 0.2s cubic-bezier(0.4, 0, 0.2, 1);
         cursor: text;
         width: 100%;
         display: block;
@@ -25,7 +25,7 @@ const InputWrapper = styled.div`
     input, select {
         background: #ffffff;
         color: transparent;
-        transition: padding 0.1s ease-in, border 0.1s ease-in, box-shadow 0.1s ease-in;
+        transition: padding 0.2s ease-in, border 0.2s ease-in, box-shadow 0.2s ease-in;
         width: 100%;
         height: 44px;
         border: 0;
